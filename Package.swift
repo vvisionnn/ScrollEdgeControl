@@ -9,7 +9,7 @@ let package = Package(
     .library(name: "ScrollEdgeControlComponents", type: .static, targets: ["ScrollEdgeControlComponents"]),
   ],
   dependencies: [
-    .package(url: "http://github.com/timdonnelly/Advance", from: "3.0.0")
+    .package(url: "http://github.com/timdonnelly/Advance", .branch("master"))
   ],
   targets: [
     .target(
