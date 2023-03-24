@@ -1,4 +1,5 @@
 import Foundation
+import ScrollEdgeControl
 import UIKit
 
 public final class ScrollEdgeActivityIndicatorView: UIView,
